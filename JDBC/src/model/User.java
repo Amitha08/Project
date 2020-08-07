@@ -71,9 +71,7 @@ public class User {
 	}
 
 
-	public boolean login(UserDBUtil userdb) {
-		
-		
+	public boolean login(UserDBUtil userdb) {	
 		try {
 			
 			User tempUser = userdb.findUser(this.email);
@@ -95,8 +93,6 @@ public class User {
 	}
 	
 	
-	
-
 	public boolean createUser(UserDBUtil userdb) {
 		try {
 			 userdb.insertUser(this);
