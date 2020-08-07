@@ -40,6 +40,7 @@ public class Login extends HttpServlet {
 		try {
 			
 			userdb = new UserDBUtil(datasource);
+			System.out.println("parth");
 		
 		} catch (Exception e) {
 			// TODO: handle exception
